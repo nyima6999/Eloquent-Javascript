@@ -33,3 +33,21 @@ switch (day) {
 }
 
 // it will continue executing, every cases until it reaches a break statement.
+
+// Ternary Operator
+const age = 21;
+age >= 18
+  ? console.log("I like to drink wine")
+  : console.log("I like to drink water");
+
+const drink = age >= 21 ? "Wine" : "Water";
+console.log(drink);
+
+// same program using if statement
+let drink2;
+if (age >= 21) {
+  drink2 = "wine";
+} else {
+  drink2 = "water";
+}
+console.log(drink2);

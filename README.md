@@ -21,3 +21,13 @@ break;
 default:
 statement;
 }
+
+# Conditional Operator (Ternary Operator)
+
+condition ? exprIfTrue : exprIfFalse
+
+exprsIfTrue:
+an expression which is executed if the condition evaluates to a truthy value
+
+exprIfFalse:
+an expression which is executed if the condition evaluates to a falsy value
