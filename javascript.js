@@ -35,6 +35,9 @@ switch (day) {
 // it will continue executing, every cases until it reaches a break statement.
 
 // Ternary Operator
+
+// condition ? exprIfTrue : exprIfFalse;
+
 const age = 21;
 age >= 18
   ? console.log("I like to drink wine")
