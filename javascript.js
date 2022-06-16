@@ -54,3 +54,19 @@ if (age >= 21) {
   drink2 = "water";
 }
 console.log(drink2);
+
+
+// Function calling another function
+
+function cutFruitPieces(fruit) {
+  return fruit *4
+}
+
+function fruitProcessor( apples, oranges) {
+  const applePieces = cutFruitPieces(apples);
+  const orangePieces = cutFruitPieces(oranges)
+  const juices = `Juice with ${applePieces}` pieces of apple and ${orangePieces} pieces of orangePieces.
+  return juices;
+}
+
+console.log(fruitProcessor(2,3))
